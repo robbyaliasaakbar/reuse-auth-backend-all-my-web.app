@@ -1,0 +1,11 @@
+# 1 command nyalain backend :7002. (Mailpit sudah dihapus 2026-09-09 — OTP via Gmail beneran.)
+services:
+  backend:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "7002:7002"
+    volumes:
+      - ./:/app
+    env_file:
+      - .env

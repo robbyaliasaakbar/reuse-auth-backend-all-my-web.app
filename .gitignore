@@ -1,0 +1,19 @@
+# Database & runtime files
+data/*
+!data/.gitkeep
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
